@@ -8,7 +8,7 @@ resource "aws_security_group" "tutorial-sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["66.187.238.66/32"]
+    cidr_blocks = ["XXX.XXX.XXX.XXX/32"]
   }
 
   egress {
