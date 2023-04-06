@@ -1,4 +1,4 @@
-resource "aws_security_group" "tutorial-sg" {
+resource "aws_security_group" "sg" {
   name        = "tutorial-security-group"
   description = "Allow SSH inbound traffic from XXX"
   vpc_id      = "vpc-04fb5154d22486542"
